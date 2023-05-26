@@ -1,0 +1,495 @@
+body{
+  background-color: rgb(235, 235, 235);
+}
+.intro{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to left top,rgba(111, 178, 255, 0.671),rgba(255, 255, 255, 0.664)), url(https://img.freepik.com/free-vector/realistic-spring-background_23-2149252708.jpg?w=740&t=st=1684235868~exp=1684236468~hmac=39cb6b020cd3a0fd39e38846fd7ab0431d85a62de072fd3e6e636a0e2ecce35a);
+  background-size: cover;
+  background-position: center;
+}
+
+.subbtn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0077FF;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: none;
+}
+.orderbar{
+  padding: 30px;
+}
+.orderbtn{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0077FF;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.header{
+  color: white;
+  text-align: center;
+
+}
+.headermain{
+  display: block;
+  font-size: 100px;
+  font-weight: 200;
+}
+.headersub{
+  display: block;
+  font-size: 40px;
+  font-weight: 200;
+}
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f9f9f9;
+font-family: Arial, sans-serif;
+}
+.dropdown-button{
+  display: none;
+}
+.dropdown-list{
+  display: none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.bluelogo{
+  color: #0077cc;
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #333;
+}
+
+.categories a {
+  display: block;
+  width: 300px; 
+  height: 200px; 
+  margin: 10px; 
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  padding-top: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+  color: rgb(255, 255, 255); 
+  text-decoration: none;
+
+}
+.zurhnii{
+  background-image: linear-gradient(to top right, rgba(0, 95, 124, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/front-view-woman-holding-heart-shape_23-2148635112.jpg?w=900&t=st=1684159322~exp=1684159922~hmac=de4a112f2550c0b880b866df02e2a0dfafccbe284b015c14399b893ddbc6e790) ;
+}
+.eregteichvvdiin{
+  background-image: linear-gradient(to top right, rgba(0, 95, 124, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/attractive-male-body-builder_155003-9929.jpg?w=740&t=st=1684550118~exp=1684550718~hmac=12a1b469956c0153c6a8cc2c5046aab90fda82ba5d160d1783eb33ed4b91b87a) ;
+}
+.emegteichvvdiin{
+  background-image: linear-gradient(to top right, rgba(0, 95, 124, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/muscular-young-woman-athlete-gray_155003-12251.jpg?w=740&t=st=1684550397~exp=1684550997~hmac=979afb3822bcba2a49d4283d054be7b1875e5d0af23bf54c181482596be6bd49) ;
+}
+.darhlaademjih{
+  background-image: linear-gradient(to top right, rgba(0, 95, 124, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/attractive-happy-woman-jogging-park_1163-1655.jpg?w=740&t=st=1684550833~exp=1684551433~hmac=256f98d5a69057d666ad85185a7739e6100818779b7a63fc3ea20eff9b49b495) ;
+}
+.elegtsusnii{
+  background-image: linear-gradient(to top right, rgba(0, 95, 124, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/premium-photo/nurse-shows-liver-hand-blurred-background_646443-1368.jpg?w=740) ;
+}
+.turaah{
+  background-image: linear-gradient(to top right, rgba(0, 95, 124, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/premium-photo/close-up-slim-woman-measuring-her-waist-s-size-with-tape-measure_159057-491.jpg?w=740);
+}
+.horguijuuleh{
+  background-image: linear-gradient(to top right, rgba(0, 95, 124, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/close-up-tea-cup_1232-415.jpg?w=740&t=st=1684159700~exp=1684160300~hmac=856d319d32baaab5932a345a4e11f3dd3db8b6751006ae77dc22a69e43efb397);
+}
+.hool{
+  background-image: linear-gradient(to top right, rgba(0, 95, 124, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/top-view-assortment-beautiful-tableware-with-copy-space_23-2148835138.jpg?w=740&t=st=1684159758~exp=1684160358~hmac=e7a754fff5bda13bf305016aec40d48e9dd0765a047d8eb4ea2453eff6e32313);
+}
+.tolgoin{
+  background-image: linear-gradient(to top right, rgba(0, 95, 124, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/premium-photo/machine-learning-artificial-intelligence-ai-technology-thinking-concept_586720-8.jpg?w=740);
+}
+.erchhvch{
+  background-image: linear-gradient(to top right, rgba(0, 95, 124, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/young-fitness-woman-runner_1150-10576.jpg?w=740&t=st=1684159853~exp=1684160453~hmac=fdead47e6e06ab759ccaa634894eb2a80b04111a8c3394759e7cada52ee3a490);
+}
+.zurhnii:hover{
+  background-image: linear-gradient(to top right, rgba(0, 195, 255, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/front-view-woman-holding-heart-shape_23-2148635112.jpg?w=900&t=st=1684159322~exp=1684159922~hmac=de4a112f2550c0b880b866df02e2a0dfafccbe284b015c14399b893ddbc6e790) ;
+}
+.turaah:hover{
+  background-image: linear-gradient(to top right, rgba(0, 195, 255, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/premium-photo/close-up-slim-woman-measuring-her-waist-s-size-with-tape-measure_159057-491.jpg?w=740);
+}
+.horguijuuleh:hover{
+  background-image: linear-gradient(to top right, rgba(0, 195, 255, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/close-up-tea-cup_1232-415.jpg?w=740&t=st=1684159700~exp=1684160300~hmac=856d319d32baaab5932a345a4e11f3dd3db8b6751006ae77dc22a69e43efb397);
+}
+.hool:hover{
+  background-image: linear-gradient(to top right, rgba(0, 195, 255, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/top-view-assortment-beautiful-tableware-with-copy-space_23-2148835138.jpg?w=740&t=st=1684159758~exp=1684160358~hmac=e7a754fff5bda13bf305016aec40d48e9dd0765a047d8eb4ea2453eff6e32313);
+}
+.tolgoin:hover{
+  background-image: linear-gradient(to top right, rgba(0, 195, 255, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/premium-photo/machine-learning-artificial-intelligence-ai-technology-thinking-concept_586720-8.jpg?w=740);
+}
+.erchhvch:hover{
+  background-image: linear-gradient(to top right, rgba(0, 195, 255, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/young-fitness-woman-runner_1150-10576.jpg?w=740&t=st=1684159853~exp=1684160453~hmac=fdead47e6e06ab759ccaa634894eb2a80b04111a8c3394759e7cada52ee3a490);
+}
+.eregteichvvdiin:hover{
+  background-image: linear-gradient(to top right, rgba(0, 195, 255, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/attractive-male-body-builder_155003-9929.jpg?w=740&t=st=1684550118~exp=1684550718~hmac=12a1b469956c0153c6a8cc2c5046aab90fda82ba5d160d1783eb33ed4b91b87a) ;
+}
+.emegteichvvdiin:hover{
+  background-image: linear-gradient(to top right, rgba(0, 195, 255, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/muscular-young-woman-athlete-gray_155003-12251.jpg?w=740&t=st=1684550397~exp=1684550997~hmac=979afb3822bcba2a49d4283d054be7b1875e5d0af23bf54c181482596be6bd49) ;
+}
+.darhlaademjih:hover{
+  background-image: linear-gradient(to top right, rgba(0, 195, 255, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/free-photo/attractive-happy-woman-jogging-park_1163-1655.jpg?w=740&t=st=1684550833~exp=1684551433~hmac=256f98d5a69057d666ad85185a7739e6100818779b7a63fc3ea20eff9b49b495) ;
+}
+.elegtsusnii:hover{
+  background-image: linear-gradient(to top right, rgba(0, 195, 255, 0.788),rgba(255, 255, 255, 0.295)), url(https://img.freepik.com/premium-photo/nurse-shows-liver-hand-blurred-background_646443-1368.jpg?w=740) ;
+}
+.buttons {
+display: flex;
+gap: 20px;
+}
+
+.category, .prods, .about, .contact ,.login{
+text-decoration: none;
+display: flex;
+padding: 10px 30px;
+font-size: 16px;
+font-weight: bold;
+border-radius: 10px;
+color: #333; 
+transition: all 0.2s ease-in-out;
+}
+
+.category:hover, .prods:hover, .about:hover, .contact:hover {
+color: #fff; 
+background-color: #0077cc; 
+}
+.login:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(245, 203, 65);
+}
+
+
+
+
+.prod_list {
+  display: flex;
+  padding: 30px 0;  
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product {
+  height: 400px;
+  min-width: 350px;
+  width: calc(30.33% - 10px);
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+}
+.product img{
+  height: 270px;
+  width: 100%;
+}
+.prod_name {
+  margin-top: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.prod_button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0077FF;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.prod_button:hover{
+  background-color: rgb(0, 60, 151);
+}
+
+@media screen and (max-width: 768px) {
+  .product {
+    width: calc(50% - 10px);
+  }
+  .categories a {
+    padding-top: 35px;
+    width: 200px;
+    height: 150px; 
+}
+}
+
+@media screen and (max-width: 480px) {
+  .product {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+.navbar {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: none; 
+  flex-direction: column;
+  gap: 10px;
+  width: 100%; 
+}
+
+.dropdown-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-button:hover {
+  color: #fff;
+  background-color: #0077cc;
+}
+
+.dropdown-list {
+  display: none;
+  width: 100%;
+}
+
+.dropdown-list.show {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 10px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  color: #fff;
+  background-color: #0077cc;
+}
+.category, .prods, .about, .contact {
+  font-size: 14px;
+  text-align: center;
+}
+}
+@media screen and (max-width: 768px) {
+  .product {
+    width: calc(50% - 10px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .product {
+    width: 100%;
+  }
+}
+
+
+
+.aboutbar {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  margin: 30px;
+}
+
+.about_logo{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.aboutbar h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.aboutbar p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .aboutbar {
+    text-align: center;
+  }
+  
+  .aboutbar img {
+    margin: 0 auto 30px;
+  }
+  
+  .aboutbar h2 {
+    font-size: 30px;
+  }
+  
+  .aboutbar p {
+    font-size: 16px;
+  }
+}
+footer{
+  text-align: center;
+  color: white;
+  padding: 20vh;
+  background-color: #333;
+}
+
+.desc_prod {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.desc_prod-image {
+  width: 100%;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.desc_prod-image img {
+  width: 100%;
+  height: auto;
+}
+
+.desc_prod-details {
+  width: 100%;
+  max-width: 600px;
+}
+
+.desc_prod-name {
+  font-size: 2rem;
+  padding: 10px 25px ;
+}
+
+.desc_prod-description {
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: #0077cc2d;
+  border-radius: 10px;
+}
+.desc_prod-benefits{
+  padding: 20px;
+  font-size: 1.2rem;
+  background-color: rgb(224, 224, 224);
+  border-radius: 10px;
+}
+.desc_prod-number{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(73, 73, 73);
+}
+
+.desc_prod-price {
+  padding: 30px;
+  color: rgb(25, 118, 180);
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .desc_prod {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .desc_prod-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .desc_prod-details {
+    max-width: 100%;
+  }
+}
+.contact-window {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 90px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contact-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-window {
+    flex-direction: column;
+  }
+  
+  .contact-image {
+    margin-top: 0;
+  }
+}
+
+

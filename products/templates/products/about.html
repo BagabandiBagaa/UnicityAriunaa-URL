@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'products/style.css' %}">
+    <title>About</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <div>Unicity</div><div class="bluelogo">Ariunaa</div>
+        </div>
+        <div class="buttons">
+            <a class="category" href="/main/Category/Horguijuuleh/">Category</a>
+            <a class="prods" href="/main/">Products</a>
+            <a class="about" href="/main/about/">About</a>
+            <a class="contact" href="/main/contact/">Contact</a>
+            <a class="login" href="/admin/">Login</a>
+        </div>
+        <button class="dropdown-button">Menu</button>
+        <div class="dropdown-list">
+            <a class="category" href="/main/Category/Horguijuuleh/">Category</a>
+            <a class="prods" href="/main/">Products</a>
+            <a class="about" href="/main/about/">About</a>
+            <a class="contact" href="/main/contact/">Contact</a>
+            <a class="login" href="/admin/">Login</a>
+        </div>
+    </div>
+    <script>
+        var dropdownButton = document.querySelector('.dropdown-button');
+        var dropdownList = document.querySelector('.dropdown-list');
+    
+        dropdownButton.addEventListener('click', function() {
+          dropdownList.classList.toggle('show');
+        });
+    </script>
+    <div class="aboutbar">
+        <div class="cont">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="about_logo" src="https://image.spreadshirtmedia.net/image-server/v1/compositions/T993A1PA2181PT1X42Y86D178396538W15611H2698/views/1,width=650,height=650,appearanceId=1,backgroundColor=f3f3f3.jpg" alt="Unicity Logo">
+            </div>
+            <div class="col-md-6">
+              <h2>About Unicity</h2>
+              <p>Unicity is a global health and wellness company that provides nutritional supplements, weight management products, and personal care items. We are dedicated to helping people improve their lives through better health and wellness.</p>
+              <p>Our products are based on cutting-edge research and are designed to help people achieve optimal health and wellness. We believe that everyone deserves to live a healthy, happy life, and we are committed to making that a reality for as many people as possible.</p>
+              <p>Founded in 2001, Unicity has grown into a global company with a presence in over 50 countries. We are proud to be a leader in the health and wellness industry, and we are committed to continuing our mission of helping people live healthier, happier lives.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer>
+      <p>&copy; 2023 UnicityAriunaa</p>
+    </footer>
+
+
+
+
+    
+</body>
+</html>
