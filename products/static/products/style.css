@@ -245,6 +245,11 @@ background-color: #0077cc;
   .product {
     width: 100%;
   }
+  .categories a {
+    padding-top: 35px;
+    width: 175px;
+    height: 150px; 
+}
 }
 
 @media screen and (max-width: 768px) {
